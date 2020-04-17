@@ -4,7 +4,6 @@
     <h3>catch me at..</h3>
     <ul>
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram fa-lg"></i></a>
-      <!-- <li><a href="" target="_blank" rel="noopener">eslint</a></li> -->
     </ul>
     <P> With <span class="icon"><i class="fas fa-heart"></i></span> by Mohan. </p>
   </div>
