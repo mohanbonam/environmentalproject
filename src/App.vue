@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: cursive;
   text-align: center;

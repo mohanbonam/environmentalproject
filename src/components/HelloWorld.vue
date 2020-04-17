@@ -5,7 +5,10 @@
     <ul>
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram fa-lg"></i></a>
     </ul>
-    <P> With <span class="icon"><i class="fas fa-heart"></i></span> by Mohan. </p>
+    <div>
+     <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas"></i></span></p>
+     <P> With <span class="heart"><i class="fas fa-heart"></i></span> by Mohan. </p>
+    </div>
   </div>
 </template>
 
@@ -36,11 +39,14 @@ a {
   color: #a06565;
   text-decoration: none;
 }
-.icon {
+.heart {
   color: rgb(187, 76, 76);
 }
+.globe {
+  color: rgb(78, 78, 151);
+}
 p{
-  font-size: 14px;
+  font-size: 12px;
   color: darkgray;
 }
 </style>
