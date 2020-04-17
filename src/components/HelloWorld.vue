@@ -43,7 +43,7 @@ a {
   color: rgb(187, 76, 76);
 }
 .globe {
-  color: rgb(78, 78, 151);
+  color: green;
 }
 p{
   font-size: 12px;
