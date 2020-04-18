@@ -19,7 +19,7 @@ export default {
 <style>
 
 #app {
-  margin: 200px 0 0;
+  margin: 100px 0 0;
   font-family: monospace;
   text-align: center;
   /* -webkit-font-smoothing: antialiased;
