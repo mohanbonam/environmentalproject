@@ -19,7 +19,7 @@ export default {
 <style>
 
 #app {
-  font-family: cursive;
+  font-family: monospace;
   text-align: center;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
