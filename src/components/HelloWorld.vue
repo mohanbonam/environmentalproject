@@ -83,7 +83,7 @@ export default {
 <style scoped>
 h3, h4 {
   /*   */
-  color: rgb(117, 117, 117);
+  color: rgb(150, 150, 150);
 }
 ul {
   list-style-type: none;
