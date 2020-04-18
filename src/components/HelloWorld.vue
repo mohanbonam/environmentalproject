@@ -1,13 +1,11 @@
 <template>
   <div class="hello">
-    <h3>catch me at..</h3>
-    <ul>
-      <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram fa-lg"></i></a>
-    </ul>
+    <h3>The wilderness holds answers to questions man has not yet learned to ask.</h3>
     <div>
-      <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas"></i></span></p>
-      <!-- <img :src="planet" width="300" height="300" /> -->
-      <P> With <span class="heart"><i class="fas fa-heart"></i></span> by Mohan. </p>
+      <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas fa-sm"></i></span></p>
+      <p>catch me at</p>
+      <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
+      <P> With <span class="heart"><i class="fas fa-heart fa-sm"></i></span> by Mohan</p>
       <p>Date: {{ todayDate }} | Time: {{ todayTime }}</p>
     </div>
   </div>
@@ -83,8 +81,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 100px 0 0;
+h3, h4 {
+  /*   */
   color: rgb(117, 117, 117);
 }
 ul {
