@@ -1,16 +1,17 @@
 <template>
   <div class="hello">
-    <h3>The wilderness holds answers to questions man has not yet learned to ask.</h3>
-    <botton><a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">explore</a></botton>
+    <h4>The wilderness holds answers to questions man has not yet learned to ask.</h4>
+    <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-alt fa-xs"></i></a>
     <div>
-      <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas fa-sm"></i></span></p>
-      <p><router-link to="/about" > about me</router-link></p>
-      <p>catch me at</p>
-      <a href="https://www.facebook.com/mohanbonam1" target="_blank" rel="noopener" class="instagram"><i class="fab fa-facebook-f"></i></a>
+      <!-- <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas fa-sm"></i></span></p> -->
+      <p>follow me</p>
+      <a href="https://www.facebook.com/mohanbonam1" target="_blank" rel="noopener" class="instagram"><i class="fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
       <a href="https://twitter.com/mohanbonam" target="_blank" rel="noopener" class="instagram"><i class="fab fa-twitter"></i></a>
-      <P> With <span class="heart"><i class="fas fa-heart fa-sm"></i></span> by Mohan</p>
-      <p>Date: {{ todayDate }}{{xyz}} | Time: {{ todayTime }}</p>
+      <a href="https://www.youtube.com/channel/UCc1lktP5ZTEjGO4UGHVXyKQ/featured?view_as=subscriber" target="_blank" rel="noopener" class="instagram"><i class="fab fa-youtube"></i></a>
+      <P> with <span class="heart"><i class="fas fa-heart fa-sm"></i></span> Mohan</p>
+      <p><router-link to="/about" > about me</router-link></p>
+      <p>Date: {{ todayDate }}| Time: {{ todayTime }}</p>
     </div>
     <footer>
       <small>&copy; Copyright {{currentYear}}</small>
@@ -106,12 +107,12 @@ li {
   margin: 0 10px;
 }
 a {
-  color: rgb(150, 150, 150);
+  color: darkgray;
   text-decoration: none;
   margin: 3px;
 }
 .heart {
-  color: rgb(187, 76, 76);
+  color: rgb(217, 147, 147);
 }
 /* .globe {
   color: green;
