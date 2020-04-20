@@ -1,15 +1,16 @@
 <template>
   <div class="hello">
     <h3>The wilderness holds answers to questions man has not yet learned to ask.</h3>
-    <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">explore</a>
+    <botton><a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">explore</a></botton>
     <div>
       <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas fa-sm"></i></span></p>
+      <p><router-link to="/about" > about me</router-link></p>
       <p>catch me at</p>
       <a href="https://www.facebook.com/mohanbonam1" target="_blank" rel="noopener" class="instagram"><i class="fab fa-facebook-f"></i></a>
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
       <a href="https://twitter.com/mohanbonam" target="_blank" rel="noopener" class="instagram"><i class="fab fa-twitter"></i></a>
       <P> With <span class="heart"><i class="fas fa-heart fa-sm"></i></span> by Mohan</p>
-      <p>Date: {{ todayDate }} | Time: {{ todayTime }}</p>
+      <p>Date: {{ todayDate }}{{xyz}} | Time: {{ todayTime }}</p>
     </div>
     <footer>
       <small>&copy; Copyright {{currentYear}}</small>
@@ -18,17 +19,16 @@
 </template>
 
 <script>
-// var d = new Date();
-// Page.currentYear = d.getFullYear();
 
 export default {
-  name: 'HelloWorld',
+  name: 'Landing',
   props: {
     msg: String,
     bundle: {
       type: Object,
       default: function () {
-        return {}
+        return {
+        }
       }
     }
   },
