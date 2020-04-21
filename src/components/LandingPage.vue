@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h4>The wilderness holds answers to questions man has not yet learned to ask.</h4>
-    <!-- <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-alt fa-xs"></i></a> -->
+    <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-alt fa-xs"></i></a>
     <!-- <section class="video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/iWWE-WXFQGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section> -->
@@ -12,11 +12,12 @@
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
       <a href="https://twitter.com/mohanbonam" target="_blank" rel="noopener" class="instagram"><i class="fab fa-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UCc1lktP5ZTEjGO4UGHVXyKQ/featured?view_as=subscriber" target="_blank" rel="noopener" class="instagram"><i class="fab fa-youtube"></i></a>
-      <P> with <span class="heart"><i class="fas fa-heart fa-sm"></i></span> Mohan</p>
+      <P> With <span class="heart"><i class="fas fa-heart fa-sm"></i></span> Mohan</p>
       <p><router-link to="/about" > about me</router-link></p>
       <p>Date: {{ todayDate }} | Time: {{ todayTime }}</p>
     </div>
     <footer>
+      <p>Powered By Purpose</p>
       <small>&copy; Copyright {{currentYear}}</small>
     </footer>
   </div>
