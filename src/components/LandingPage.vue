@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
     <h4>The wilderness holds answers to questions man has not yet learned to ask.</h4>
-    <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-alt fa-xs"></i></a>
-    <section class="video">
+    <!-- <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-alt fa-xs"></i></a> -->
+    <!-- <section class="video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/iWWE-WXFQGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+    </section> -->
     <div>
       <!-- <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas fa-sm"></i></span></p> -->
       <p>follow me</p>

@@ -22,4 +22,7 @@ a {
   margin: 4px;
   font-size: 11px;
 }
+a:hover {
+  color: rgb(94, 94, 94);
+}
 </style>
