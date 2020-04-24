@@ -13,7 +13,7 @@
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
       <a href="https://twitter.com/mohanbonam" target="_blank" rel="noopener" class="instagram"><i class="fab fa-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UCc1lktP5ZTEjGO4UGHVXyKQ/featured?view_as=subscriber" target="_blank" rel="noopener" class="instagram"><i class="fab fa-youtube"></i></a>
-      <P> With <span class="heart"><i class="animated infinite heartBeat delay-1s fas fa-heart fa-sm"></i></span> Mohan</p>
+      <P> With <span class="heart"><i class="animated infinite heartBeat delay-1s fas fa-heart"></i></span> Mohan</p>
       <p><router-link to="/about" > about me</router-link></p>
       <p>Date: {{ todayDate }} | Time: {{ todayTime }}</p>
     </div>
@@ -117,10 +117,10 @@ a {
   margin: 3px;
 }
 a:hover {
-  color: rgb(94, 94, 94);
+  color: rgb(224, 224, 224);
 }
 .heart {
-  color: rgb(150, 74, 74)
+  color: rgb(167, 76, 76)
 }
 /* .globe {
   color: green;
