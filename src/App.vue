@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view />
+    <div class="ag-hero">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -18,8 +20,18 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background: url("./assets/wallpaper.gif");
+  
+
 }
 
+/* #app .ag-hero {
+  background: url("./assets/wallpaper.gif");
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
 
 #app {
   -webkit-font-smoothing: antialiased;
@@ -31,6 +43,6 @@ html, body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: rgb(49, 49, 49);
+
 }
 </style>

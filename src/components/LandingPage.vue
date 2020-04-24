@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <h4>The wilderness holds answers to questions man has not yet learned to ask.</h4>
-    <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-alt fa-xs"></i></a>
+    <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-square-alt fa-xs"></i></a>
+    <hr>
     <!-- <section class="video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/iWWE-WXFQGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section> -->
@@ -119,7 +120,7 @@ a:hover {
   color: rgb(94, 94, 94);
 }
 .heart {
-  color: rgb(217, 147, 147);
+  color: rgb(150, 74, 74)
 }
 /* .globe {
   color: green;
@@ -131,6 +132,22 @@ p{
 
 small {
   color: darkgray;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.1px;
+    height: 1px;
+    background-color: rgb(95, 95, 95);
+    border: none;
+    margin-top: 15px;
 }
 
 .video {
