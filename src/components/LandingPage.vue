@@ -3,17 +3,13 @@
     <h4>The wilderness holds answers to questions man has not yet learned to ask.</h4>
     <a href="https://www.nature.org/en-us/" target="_blank" rel="noopener" class="instagram">The Nature Conservancy <i class="fas fa-external-link-square-alt fa-xs"></i></a>
     <hr>
-    <!-- <section class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/iWWE-WXFQGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section> -->
     <div>
-      <!-- <p> Protect the Environment <span class="globe"><i class="fas fa-globe-americas fa-sm"></i></span></p> -->
       <p>follow me</p>
       <a href="https://www.facebook.com/mohanbonam1" target="_blank" rel="noopener" class="instagram"><i class="fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
       <a href="https://twitter.com/mohanbonam" target="_blank" rel="noopener" class="instagram"><i class="fab fa-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UCc1lktP5ZTEjGO4UGHVXyKQ/featured?view_as=subscriber" target="_blank" rel="noopener" class="instagram"><i class="fab fa-youtube"></i></a>
-      <P> With <span class="heart"><i class="animated infinite heartBeat delay-1s fas fa-heart"></i></span> Mohan</p>
+      <P> With <span class="heart"><i class="animated infinite heartBeat delay-1s fas fa-heart fa-xs"></i></span> Mohan</p>
       <p><router-link to="/about" > about me</router-link></p>
       <p>Date: {{ todayDate }} | Time: {{ todayTime }}</p>
     </div>
@@ -46,24 +42,6 @@ export default {
       // todayDate: String
     }
   },
-  // var vue_det = new Vue({
-  //           el: '#intro',
-  //           data: {
-  //              timestamp: ""
-  //           },
-  //           created() {
-  //               setInterval(this.getNow, 1000);
-  //           },
-  //           methods: {
-  //               getNow: function() {
-  //                   const today = new Date();
-  //                   const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-  //                   const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  //                   const dateTime = date +' '+ time;
-  //                   this.timestamp = dateTime;
-  //               }
-  //           }
-  //        });
   computed: {
     currentYear: () => {
       const y = new Date()
@@ -99,58 +77,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3, h4 {
-  /*   */
-  color: rgb(150, 150, 150);
-}
-ul {
+/* ul {
   list-style-type: none;
   padding: 0;
 }
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: darkgray;
-  text-decoration: none;
-  margin: 3px;
-}
-a:hover {
-  color: rgb(224, 224, 224);
-}
+} */
+
 .heart {
   color: rgb(167, 76, 76)
-}
-/* .globe {
-  color: green;
-} */
-p{
-  font-size: 12px;
-  color: darkgray;
 }
 
 small {
   color: darkgray;
 }
 
-hr {
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 0.1px;
-    height: 1px;
-    background-color: rgb(95, 95, 95);
-    border: none;
-    margin-top: 15px;
-}
-
-.video {
-  margin-top: 25px;
-}
 </style>

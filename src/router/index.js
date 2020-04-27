@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
 import AboutMe from '@/components/AboutMe.vue'
+import Archive from '@/components/Archive.vue'
 
 
 Vue.use(VueRouter)
@@ -17,6 +18,10 @@ const routes = [
         path: '/about',
         name: 'about',
         component: AboutMe,
+    },
+    {
+        path: '/archive',
+        component: Archive,
     }
 
 ]
