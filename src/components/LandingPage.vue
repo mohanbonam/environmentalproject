@@ -12,7 +12,7 @@
       <a href="https://www.instagram.com/always_mohan/" target="_blank" rel="noopener" class="instagram"><i class="fab fa-instagram "></i></a>
       <a href="https://twitter.com/mohanbonam" target="_blank" rel="noopener" class="instagram"><i class="fab fa-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UCc1lktP5ZTEjGO4UGHVXyKQ/featured?view_as=subscriber" target="_blank" rel="noopener" class="instagram"><i class="fab fa-youtube"></i></a>
-      <P> With <span class="heart"><i class="fas fa-heart fa-sm"></i></span> Mohan</p>
+      <p> With <span class="heart"><i class="fas fa-heart fa-sm"></i></span> Mohan</p>
       <p><router-link to="/about" > about me</router-link></p>
       <p>Date: {{ todayDate }} | Time: {{ todayTime }}</p>
     </div>
@@ -39,30 +39,9 @@ export default {
   },
   data () {
     return {
-      // planet: require('@/assets/protect.png')
       moment: require('moment'),
-      // todayTime: String
-      // todayDate: String
     }
   },
-  // var vue_det = new Vue({
-  //           el: '#intro',
-  //           data: {
-  //              timestamp: ""
-  //           },
-  //           created() {
-  //               setInterval(this.getNow, 1000);
-  //           },
-  //           methods: {
-  //               getNow: function() {
-  //                   const today = new Date();
-  //                   const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-  //                   const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  //                   const dateTime = date +' '+ time;
-  //                   this.timestamp = dateTime;
-  //               }
-  //           }
-  //        });
   computed: {
     currentYear: () => {
       const y = new Date()
@@ -73,22 +52,11 @@ export default {
       return time.getHours()+ ":" + time.getMinutes() + ":" + time.getSeconds()
     },
     todayDate: () => {
+      const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
       const today = new Date()
-      return (today.getMonth() + 1) + '-' + today.getDate() + '-' + today.getFullYear()
+      return `${monthNames[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`
     }
   },
-  // watch: {
-  //   bundle () {
-  //     const time = new Date()
-  //     this.todayTime = time.getHours()+ ":" + time.getMinutes() + ":" + time.getSeconds()
-  //   }
-  // },
-  // watch: {
-  //   bundle () {
-  //     const today = new Date()
-  //     this.todayDate = (today.getMonth() + 1) + ' / ' + today.getDate() + ' / ' + today.getFullYear()
-  //   }
-  // },
   mounted () {
   },
   methods: {
